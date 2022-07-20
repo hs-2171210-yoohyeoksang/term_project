@@ -371,7 +371,7 @@ void gameover() {
 		draw_box2(i * 2, i, 88 - i * 2, 41 - i);
 	}
 	gotoxy(37, 17);
-	printf("게임 오버!");
+	printf("Game Over!");
 	gotoxy(37, 18);
 	printf("점수 : %d", score);
 	gotoxy(37, 20);
@@ -388,7 +388,7 @@ void gameclear() {
 	}
 	textcolor(15, 0);
 	gotoxy(37, 17);
-	printf("게임 클리어!");
+	printf("Game Clear!");
 	gotoxy(37, 18);
 	printf("점수 : %d", score);
 	gotoxy(37, 20);
